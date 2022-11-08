@@ -1,0 +1,35 @@
+.li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  height: 5vh;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.con {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  align-items: center;
+}
+.title {
+  margin-left: 10px;
+  margin-right: 20px;
+  font-weight: 600;
+}
+.btn {
+  background-color: #fff;
+  height: 5vh;
+  border: 1px #fff;
+  width: 5vw;
+}
